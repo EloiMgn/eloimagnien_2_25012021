@@ -1,0 +1,54 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin:70px
+}
+/* header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+   width: 66%; 
+   padding: 3px;
+   margin-bottom: 36px;
+}
+nav{
+    width: 33%;
+    margin-bottom: 0;
+}
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+.main {
+    display: flex;
+    flex-direction: column;
+}
+    /*search section*/
+    .search_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+        .search_section h1 {
+            font-weight: 900;
+            font-size: large;
+            margin: 10px 0 5px 0;
+        }
+        .search_section p {
+            margin: 5px 0 10px 0;
+        }
+        .search_bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin: 10px 0;
+        }
+    /*filters*/
+    .filters {
+        display: flex;
+        margin-left: -44px;
+    }
