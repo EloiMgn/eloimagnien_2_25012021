@@ -37,18 +37,146 @@ nav{
             font-weight: 900;
             font-size: large;
             margin: 10px 0 5px 0;
+            width: 43%;
         }
         .search_section p {
             margin: 5px 0 10px 0;
+            width: 22.4%;
+            font-size: small;
         }
         .search_bar {
             display: flex;
             flex-direction: row;
             justify-content: start;
             margin: 10px 0;
+            width: 33%;
         }
+            .icon{
+                background-color: #F2F2F2;
+                color: black;
+                text-align: center;
+                margin: 0;
+                padding: 10px 0;
+                font-size: x-large;
+                border-top-left-radius: 15%;
+                border-bottom-left-radius: 15%;
+                width: 12.5%;
+            }
+            .button{
+                background-color: #0065FC;
+                color: white;
+                font-size: large;
+                font-weight: 900;
+                font-family: 'Raleway', sans-serif;
+                border-top-right-radius: 15%;
+                border-bottom-right-radius: 15%;
+                margin: auto;
+                padding: 10px 0;
+                width: 35%;
+            }
+            .search{
+
+                font-size: large;
+                font-weight: 900;
+                color: black;   
+                font-family: 'Raleway', sans-serif;
+                margin: auto;
+                padding: 10px 0;
+                width: 55%;
+            }
     /*filters*/
     .filters {
         display: flex;
-        margin-left: -44px;
+        flex-direction: row;
+        margin: 20px 0 20px ;
+        font-size: large;
+        font-weight: 900;
     }
+
+        .filter {
+            display: flex;
+            flex-direction: row;
+            padding:15px 20px 18px 29px;
+
+        }
+            .filters h1 {
+                padding:30px 40px 36px 58px;
+                margin-left: -44px;
+                font-size: large;
+                font-weight: 900;
+            }
+            .filter i{
+                padding: 11px 11px;
+                font-size: large;
+                background-color: #DEEBFF;
+                color: #0065FC;
+            }
+            .filter p{
+                padding: 11px 11px;
+            }
+    /*infos*/
+    .infos {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0 30px 0;
+    }
+    /*accomodations*/
+    .accommodations {
+        display: flex;
+        flex-direction: row;
+    }
+        .search_result {
+            display: flex;
+            flex-direction: column;
+            width: 66%;
+        }
+            .cards_1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+                .acc{
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .acc h2{
+                        font-size: medium;
+                        font-weight: 900;
+                    }
+                        .search_result img {
+                            width: 215px;
+                            height: 153px;
+                            object-fit: cover;
+                        }
+                        .search_result h1 {
+                            font-size: large;
+                            font-weight: 900;
+                        }
+
+        .popular {
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+        }
+            .cards_2 {
+                display: flex;
+                flex-direction: column;
+
+            }
+                .pop{
+                    display: flex;
+                    flex-direction: row;
+                }
+                    .pop h2{
+                        font-size: medium;
+                        font-weight: 900;
+                    }        
+                          .popular img {
+                            width: 170px;
+                            height: 178px;
+                            object-fit: cover;
+                        }
+                        .popular h1{
+                            font-size: large;
+                            font-weight: 900;
+                        }
+
