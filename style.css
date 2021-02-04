@@ -10,12 +10,12 @@ header {
 }
 .logo{
    width: 66%; 
-   padding: 70px 0 36px 70px;
+   padding: 40px 0 36px 70px;
 }
 nav{
     width: 33%;
     margin-bottom: 0;
-    padding: 70px 70px 36px 0 ;
+    padding: 40px 70px 36px 0 ;
 }
     nav ul{
         display: flex;
@@ -27,7 +27,7 @@ nav{
             color: #0065FC;
             font-weight: 700;
             border-top: solid 3px #0065FC;
-            padding-top: 65px;
+            padding-top: 35px;
         }
             nav a:hover{
                 color: black;
@@ -38,7 +38,7 @@ nav{
     display: flex;
     flex-direction: column;
     height: 83%;
-    padding: 0 70px 0 70px;
+    padding: 0 35px 0 35px;
 }
     /*search section*/
     .search_section {
@@ -94,12 +94,13 @@ nav{
                 color: black;   
                 font-family: 'Raleway', sans-serif;
                 margin: auto;
-                padding: 10px 0;
+                padding: 10px 0 10px 5px;
                 width: 50%;
             }
             .button:hover{
                 background-color: #DEEBFF;
                 color:#0065FC;
+                cursor: pointer;
             }
             form{
                 width: 100%;
@@ -108,7 +109,7 @@ nav{
     .filters {
         display: flex;
         flex-direction: row;
-        margin: 20px 0 20px ;
+        margin: 10px 0 10px ;
         font-size: large;
         font-weight: 900;
     }
@@ -128,7 +129,8 @@ nav{
                 font-weight: 900;
             }
             .filter i{
-                padding: 11px;
+                padding: 12px;
+                margin: -2px;
                 font-size: large;
                 background-color: #DEEBFF;
                 color: #0065FC;
@@ -152,49 +154,69 @@ nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 33%;
+        height: 35.8%;
     }
-        .search_result {
+        .search_result{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 66%;
-            margin: 0 25px 85px 0;
-            padding: 61px 50px 60px 50px;
+            width: 62.5%;
+            margin: 0 12.5px 40px 0;
+            padding: 3% 3% 3% 3%;
             background-color: #F2F2F2;
             border-radius: 4ex;
         }
             .cards_1 {
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
+                flex-direction: column;
                 justify-content: space-between;
                 padding: 30px 0 60px 0;
+                height: 69%;
+            }
+            .row_1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .row_2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
             }
                 .acc{
                     display: flex;
                     flex-direction: column;
-                    width: 33%;
-                    height: 30%;
+                    width: 30%;
+                    height: 100%;
                     margin: 3px;
                     background-color: white;
                     border-radius: 4ex;
                     box-shadow: 5px 5px 5px 0.5px rgb(219, 218, 218);
+                    text-decoration: none;
+                    color: black;
                 }
                     .acc h2{
                         font-size: medium;
                         font-weight: 900;
                     }
-                    .acc a{
-                        text-decoration: none;
-                        color: black;
+                    .acc_text{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        margin-left: 22px;
                     }
+                    .cards_1 a:hover{
+                        box-shadow: 2px 2px 5px 3px rgba(128, 127, 127, 0.671);
+                    }
+
                         .search_result img {
                             width: 95%;
-                            height: 64%;
+                            height: 152px;
                             object-fit: cover;
                             border-radius: 4ex 4ex 0 0;
                             padding: 5px;
+
                             
                         }
                         .search_result h1 {
@@ -210,14 +232,25 @@ nav{
                         .more a:hover{
                             color: #0065FC;
                         }
+                        .acc h2 p .rating{
+                            padding-left: 22px;
+                        }
+                        .rating_acc{
+                            color: #0065FC;
+                            margin-top: 5px;
+                        }
+
+                        .acc_text p{
+                            margin: 5px 0;
+                        }
 
         .popular {
             display: flex;
             flex-direction: column;
-            width: 31%;
+            width: 30.5%;
             justify-content: space-between;
-            margin: 0 0 85px 0;
-            padding: 61px 50px 60px 50px;
+            margin: 0 0 40px 12.5px;
+            padding: 3% 3% 3% 3%;
             background-color: #F2F2F2;
             border-radius: 4ex;
         }
@@ -231,7 +264,7 @@ nav{
                     flex-direction: row;
                     justify-content: space-between;
                 }
-                .pop a{
+                .pop{
                     display: flex;
                     flex-direction: row; 
                     width: 100%;
@@ -247,12 +280,13 @@ nav{
                         font-size: medium;
                         font-weight: 900;
                     } 
-                    .rating{
+                    .rating_pop{
                         color: #0065FC;
+                        margin-top: 29%;
                     }
                           .popular img {
-                            width: 170px;
-                            height: 178px;
+                            width: 37%;
+                            height: 95%;
                             object-fit: cover;
                             padding: 5px;
                             border-radius:4ex 0 0 4ex;
@@ -261,6 +295,12 @@ nav{
                             font-size: large;
                             font-weight: 900;
                         }
+                    .pop_text{
+                        margin: 13% 0 10% 8.5%;
+                    }
+                    .cards_2 a:hover{
+                        box-shadow: 2px 2px 5px 3px rgba(128, 127, 127, 0.671);
+                    }
     /*activities*/
     #activities{
         display: flex;
@@ -282,6 +322,8 @@ nav{
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
                 border-radius: 1.5cm;
                 margin: 1em;
+                text-decoration: none;
+                color: black;
             }
             .act_4{
                 width: 25%;
@@ -289,30 +331,40 @@ nav{
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
                 border-radius: 1.5cm;
                 margin: 1em;
+                text-decoration: none;
+                color: black;
             }
             .act_2{
                 height: 53%;
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
                 border-radius: 1cm;
                 margin: 1em;
+                text-decoration: none;
+                color: black;
             }
             .act_3{
                 height: 37%;
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
                 border-radius: 1cm;
                 margin: 1em;
+                text-decoration: none;
+                color: black;
             }
             .act_5{
                 height: 44%;
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
                 border-radius: 1cm;
                 margin: 1em;
+                text-decoration: none;
+                color: black;
             }
             .act_6{
                 height: 48%;
                 box-shadow: 5px 5px 5px 1px #F2F2F2;
                 border-radius: 1cm;
                 margin: 1em;
+                text-decoration: none;
+                color: black;
             }
             .small_card_1{
                 width: 25%;
@@ -388,6 +440,9 @@ nav{
                     font-size: medium;
                     font-weight: 900;
                 }
+                .cards_3 a:hover{
+                    box-shadow: 2px 2px 5px 3px rgba(128, 127, 127, 0.671);
+                }
 
 
     footer{
@@ -411,6 +466,9 @@ nav{
     .links a {
         text-decoration: none;
         color: black;
+    }
+    .links a:hover {
+     font-weight: 900;
     }
     .links li{
         margin-top: 15px;
