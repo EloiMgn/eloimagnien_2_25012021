@@ -38,12 +38,15 @@ nav{
             }
 
             @media screen and (max-width: 1024px) {
+
                 .header_1{
                     display:none;
                 }
                 .header_2{
                     display: flex;
                     flex-direction: column;
+
+                    width: 100%;
                 }
                 .en_tete{
                     width: 100%;
@@ -55,7 +58,7 @@ nav{
                     width: 50%;
                     padding: 40px 70px 36px 0 ;
                     text-align: end;
-                    font-size: 200%;
+                    font-size: 300%;
                 }
                 .logo{
                     width: 50%;
@@ -76,17 +79,17 @@ nav{
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
-                    font-size: 200%;
+
                     padding: 35px 0;
                 }
                 nav ul li{
-                    padding-right: 20px;
                     text-decoration: none;
                     color: #0065FC;
                     font-weight: 700;
                     border-bottom: solid 3px #0065FC;
-                    padding: 5% 16%;
+                    padding: 0 14% 35px 14%;
                     border-top: none;
+                    font-size: 250%;
                 }
                 a.nav_act{
                     border-top: none;
@@ -111,11 +114,14 @@ nav{
         flex-direction: column;
         justify-content: space-around;
     }
-        .search_section h1 {
+        .search_section h1.desk {
             font-weight: 900;
             font-size: large;
             margin: 10px 0 5px 0;
             width: 43%;
+        }
+        .search_section h1.phone{
+            display: none;
         }
         .search_section p {
             margin: 5px 0 10px 0;
@@ -170,6 +176,67 @@ nav{
             form{
                 width: 100%;
             }
+            .form_2{
+                display: none;
+            }
+
+@media screen and (max-width: 1024px){
+    .main{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .search_section h1.desk {
+        display: none;
+    }
+    .search_section h1.phone{
+        display: flex;
+        width: 100%;
+        font-size: 350%;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+    .search_section p {
+        margin: 5px 0 10px 0;
+        width: 100%;
+        font-size: 250%;
+        font-weight: 400;
+    }
+    .search_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .form_1{
+        display: none;
+    }
+    .form_2{
+        display: flex;
+    }
+    .search_field{
+        width: 100%;
+    }
+    .button{
+        width: 7%;
+        margin: 0;
+        font-size: 200%;
+    }
+    .button i{
+        text-align: center;
+        font-size: 150%;
+    }
+    .search{
+        width: 70%;
+        height: auto;
+        margin: 0;
+        font-size: 250%;
+    }
+}
+
+
     /*filters*/
     .filters {
         display: flex;
