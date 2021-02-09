@@ -58,7 +58,7 @@ main {
     height: 110px;
     margin: 10px 0;
 }
-.search_section h1.desk {
+.search_section h1.desktop {
     font-weight: 900;
     font-size: large;
     margin: 10px 0 5px 0;
@@ -1454,3 +1454,10 @@ footer{
         }
     
     }
+
+
+
+
+
+
+
