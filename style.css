@@ -381,6 +381,7 @@ input{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-top: 10px;
 }
 .acc_text{
     display: -webkit-box;
@@ -513,7 +514,7 @@ input{
         -ms-flex-pack: justify;
             justify-content: space-between;
     height: 100px;
-    margin: 16px 0 12px 17px;
+    margin: 16px 0 12px 7px;
 }
 .pop_text{
     height: 52px;
@@ -1020,7 +1021,9 @@ footer{
         margin: 0;
         font-size: large;
         font-weight: 900;
-        height: 210px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start;
@@ -1035,7 +1038,9 @@ footer{
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
-        height: 210px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 95%;
         margin-left: 9px;
         -webkit-box-pack: start;
@@ -1056,7 +1061,9 @@ footer{
             -ms-flex-direction: row;
                 flex-direction: row;
         margin: 30px 0 10px 20px;
-        height: 22px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -1724,26 +1731,26 @@ footer{
             -webkit-box-direction: normal;
                 -ms-flex-direction: row;
                     flex-direction: row;
-            margin: 6px 0 0 20px;
+            margin: 6px 10px 0 10px;
         }
         .row_2{
             -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
                 -ms-flex-direction: row;
                     flex-direction: row;
-            margin: 6px 0 0 20px;
+            margin: 6px 10px 0 10px;
         }
         .acc{
             width: 335px;
             height: 200px;
-            margin: 13px;
+            margin: 10px;
         }
         .more{
             margin: 40px;
             font-size: 150%;
         }
         .header{
-            margin: 43px 750px 13px 40px;
+            margin: 43px 450px 13px 40px;
         }
         .popular {
             display: -webkit-box;
@@ -1814,7 +1821,7 @@ footer{
             height: fit-content;
         }
         .cards_3 h2{
-            padding: 15px;
+            padding: 13px;
         }
         .cards_3{
             display: -webkit-box;
