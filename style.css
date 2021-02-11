@@ -807,11 +807,15 @@ footer{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 4750px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     }
     header{
         width: 100%;
-        height: 133px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
         margin: 0;
     }
     .header_1{
@@ -916,7 +920,9 @@ footer{
 
     }
     main{
-        height: 3935px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
         padding: 0;
         margin: 0;
         display: -webkit-box;
@@ -1127,7 +1133,9 @@ footer{
     .acc{
         width: 335px;
         height: 200px;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .more{
         margin: 20px;
@@ -1163,7 +1171,9 @@ footer{
                 flex-direction: row; 
         width: 335px;
         height: 144px;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         background-color: white;
         border-radius:4ex;
         box-shadow: 5px 5px 5px 0.5px rgb(219, 218, 218);
@@ -1198,7 +1208,7 @@ footer{
     }
     #activities a{
         height: 200px;
-        width: 335px;
+        width: 90%;
     }
     #activities h1{
         margin: 20px;
@@ -1263,7 +1273,9 @@ footer{
         height: 100%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-decoration: none;
         color: black;
     }
@@ -1272,7 +1284,9 @@ footer{
         height: 100%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-decoration: none;
         color: black;
     }
@@ -1282,7 +1296,9 @@ footer{
         border-radius: 3ex;
         text-decoration: none;
         color: black;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .act_3{
         height: 37%;
@@ -1290,13 +1306,17 @@ footer{
         border-radius: 3ex;
         text-decoration: none;
         color: black;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .act_5{
         height: 44%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-decoration: none;
         color: black;
     }
@@ -1304,7 +1324,9 @@ footer{
         height: 48%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
-        margin: 13px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-decoration: none;
         color: black;
     }
@@ -1324,7 +1346,9 @@ footer{
     }
 
     footer{
-        height: 490px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
     }
     .links{
         -webkit-box-orient: vertical;
@@ -1337,18 +1361,20 @@ footer{
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start;
-        height: 490px;
+                height: -webkit-fit-content;
+                height: -moz-fit-content;
+                height: fit-content;
         margin-left: 0px;
     }   
     
     .about{
-        margin-left: 20px;
+        margin: 20px;
     }
     .our_accommodations{
-        margin-left: 20px;
+        margin: 20px;
     }
     .help{
-        margin-left: 20px;
+        margin: 20px;
     }
 
 }
@@ -1373,11 +1399,15 @@ footer{
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        height: 2330px;
-        }
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+}
         header{
             width: 100%;
-            height: 133px;
+            height: -webkit-fit-content;
+            height: -moz-fit-content;
+            height: fit-content;
             margin: 0;
         }
         .header_1{
@@ -1778,6 +1808,14 @@ footer{
             font-weight: 900;
             margin-left: 40px;
         }
+        #activities a{
+            height: -webkit-fit-content;
+            height: -moz-fit-content;
+            height: fit-content;
+        }
+        .cards_3 h2{
+            padding: 15px;
+        }
         .cards_3{
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1799,7 +1837,7 @@ footer{
             height: 100%;
             box-shadow: 5px 5px 5px 1px #F2F2F2;
             border-radius: 3ex;
-            margin: 1em;
+            margin: 10px;
             text-decoration: none;
             color: black;
         }
@@ -1808,7 +1846,7 @@ footer{
             height: 100%;
             box-shadow: 5px 5px 5px 1px #F2F2F2;
             border-radius: 3ex;
-            margin: 1em;
+            margin: 10px;
             text-decoration: none;
             color: black;
         }
@@ -1818,6 +1856,7 @@ footer{
             border-radius: 3ex;
             text-decoration: none;
             color: black;
+            margin: 10px;
         }
         .act_3{
             height: 37%;
@@ -1825,12 +1864,13 @@ footer{
             border-radius: 3ex;
             text-decoration: none;
             color: black;
+            margin: 10px;
         }
         .act_5{
             height: 44%;
             box-shadow: 5px 5px 5px 1px #F2F2F2;
             border-radius: 3ex;
-            
+            margin: 10px;
             text-decoration: none;
             color: black;
         }
@@ -1838,7 +1878,7 @@ footer{
             height: 48%;
             box-shadow: 5px 5px 5px 1px #F2F2F2;
             border-radius: 3ex;
-            
+            margin: 10px;
             text-decoration: none;
             color: black;
         }
@@ -1855,7 +1895,7 @@ footer{
                 -ms-flex-pack: justify;
                     justify-content: space-between;
             height: 100%;
-            margin: 1em;
+            margin: 0;
         }
         .small_card_2{
             width: 25%;
@@ -1870,7 +1910,7 @@ footer{
                 -ms-flex-pack: justify;
                     justify-content: space-between;
             height: 100%;
-            margin: 1em;
+            margin: 0;
         }
         
                         /*images*/
@@ -1954,13 +1994,13 @@ footer{
         }   
         
         .about{
-            margin-left: 20px;
+            margin: 20px;
         }
         .our_accommodations{
-            margin-left: 20px;
+            margin: 20px;
         }
         .help{
-            margin-left: 20px;
+            margin: 20px;
         }
     
     }
