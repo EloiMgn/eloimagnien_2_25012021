@@ -23,7 +23,7 @@ nav{
 }
 .logo{
    width: 66%; 
-   padding-top: 35px;
+   padding-top: 25px;
 }
 .menu a{
     text-decoration: none;
@@ -802,106 +802,47 @@ footer{
         height: fit-content;
         margin: 0;
     }
-    .header_1{
-        display: none;
-    }
-    .header_2{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-    }
-    .en_tete{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        margin-bottom: 18px;
-    }
     .logo{
         width: 50%;
         height: 100%;
         margin: 0;
-        padding-top: 32px;
+        padding-left: 0;
+    }
+
+    .menu{
+        width: 50%;
+        border-top: none;
+        border-bottom: solid 3px #0065FC;
+        padding-bottom: 13px;
+        padding-top: 39px;
+        display: flex;
+       justify-content: center;
+    }
+    .menu:nth-child(2){
+        order: initial;
+        border-bottom: none;
+        padding-top: 43px;
+        padding-bottom: 5px;
+    }
+    .menu:nth-child(4){
+        border-bottom: solid 3px #a7a5a5;
+    }
+    .nav_act{
+        color: black!important;
+    }
+    .menu a{
+        font-weight: 500;
+        font-size: 110%;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    nav img{
         padding-left: 20px;
     }
-    .login{
-        width: 50%;
-        font-size: 150%;
-        font-weight: 900;
-        padding-top: 32px;
-
-    }
-    a.nav{
-        padding: 30px;
-    }
-    .header_2 nav ul{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-        margin-top: 18px;
-    }
-    .header_2 nav ul li{
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-        width: 50%;
-    }
-    .header_2 a{
-        text-decoration: none;
-        color: #0065FC;
-    }
-
-    a.nav_acc{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        font-size: 150%;
-        font-weight: 700;
-        border-bottom: solid 3px #0065FC;
-        width: 100%;
-        color: #0065FC;
-        padding-bottom: 14px;
-        text-align: center;
-    }
-
-    a.nav_act{
-        font-size: 150%;
-        font-weight: 100;
-        border-bottom: solid 3px #F2F2F2;
-        color: black;
-        padding-bottom: 14px;
-        width: 100%;
-        text-align: center;
-
+    .nav{
+        padding-left: 96px;
+        font-weight: 900!important;
     }
     main{
         height: -webkit-fit-content;
