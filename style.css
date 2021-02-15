@@ -63,15 +63,13 @@ main {
     height: 110px;
     margin: 10px 0;
 }
-.search_section h1.desktop {
+.search_section h1 {
     font-weight: 900;
     font-size: large;
     margin: 10px 0 5px 0;
-    width: 43%;
+    width: 45%;
 }
-.search_section h1.phone{
-    display: none;
-}
+
 .search_section p {
     margin: 5px 0 10px 0;
     width: 22.4%;
@@ -181,7 +179,7 @@ input{
     border-radius: 2em;
 
 }
-.filters h1 {
+.filters h2 {
     padding: 0 20px 0 0px;
     font-size: large;
     font-weight: 900;
@@ -307,7 +305,7 @@ input{
             justify-content: center;
     height: 390px;
 }
-.row_1{
+.row{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -319,18 +317,6 @@ input{
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 13px 0;
-}
-.row_2{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
 }
 .acc{
     display: -webkit-box;
@@ -350,7 +336,7 @@ input{
     color: black;
     font-size: 75%;
 }
-.acc h2{
+.acc h3{
     font-weight: 900;
 }
 .hotel_description{
@@ -378,7 +364,7 @@ input{
         justify-content: space-around;
     margin-left: 22px;
 }
-.acc h2 p .rating{
+.acc h3 p .rating{
     padding-left: 22px;
 }
 .rating_acc{
@@ -406,7 +392,7 @@ input{
     border-radius: 4ex 4ex 0 0;
     padding: 5px;
 }
-.search_result h1 {
+.search_result h2 {
     font-size: large;
     font-weight: 900;
 }
@@ -482,7 +468,7 @@ input{
     color: black;
     font-size: 75%;
 }
-.pop h2{
+.pop h3{
     font-weight: 900;
 } 
 .popular_description{
@@ -522,7 +508,7 @@ input{
     padding: 5px;
     border-radius:4ex 0 0 4ex;
 }
-.popular h1{
+.popular h2{
     font-size: large;
     font-weight: 900;
 }
@@ -539,7 +525,7 @@ input{
         -ms-flex-direction: column;
             flex-direction: column;
 }
-#activities h1{
+#activities h2{
     font-size: large;
     font-weight: 900;
 }
@@ -604,22 +590,7 @@ input{
     text-decoration: none;
     color: black;
 }
-.small_card_1{
-    width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 100%;
-    margin: 1em;
-}
-.small_card_2{
+.small_card{
     width: 25%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -694,9 +665,9 @@ input{
 /*titres*/
 
 
-.cards_3 h2{
+.cards_3 h3{
     width: 90%;
-    padding: 30px 0 27px 26px;
+    padding: 20px 0 18px 17px;
     font-size: medium;
     font-weight: 900;
 }
@@ -867,15 +838,13 @@ footer{
         width: 100%;
         margin-left: 0;
     }
-    .search_section h1.desktop{
-        display: none;
-    }
-    .search_section h1.phone{
+    .search_section h1{
         display: inline;
         font-size: 17px;
         font-weight: 900;
         margin-top: 40px;
         padding-left: 20px;
+        width: 70%;
     }
     .search_section p {
         margin: 10px 0 10px 20px;
@@ -952,7 +921,7 @@ footer{
             -ms-flex-align: start;
                 align-items: flex-start;
     }
-    .filters h1{
+    .filters h2{
         margin: 15px 20px;
     }
     .filters_icons{
@@ -1044,7 +1013,7 @@ footer{
         height: -moz-fit-content;
         height: fit-content;
     }
-    .row_1{
+    .row{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -1054,13 +1023,7 @@ footer{
             -ms-flex-pack: center;
                 justify-content: center;
     }
-    .row_2{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        margin: 6px 0;
-    }
+
     .acc{
         width: 335px;
         height: 200px;
@@ -1115,7 +1078,7 @@ footer{
     .cards_2{
         margin: 0;
     }
-    .search_result h1 {
+    .search_result h2{
         font-size: large;
         font-weight: 900;
         margin: 20px;
@@ -1137,11 +1100,8 @@ footer{
         height: fit-content;
         padding: 0;
     }
-    #activities a{
-        height: 200px;
-        width: 90%;
-    }
-    #activities h1{
+
+    #activities h2{
         margin: 20px;
     }
 
@@ -1200,7 +1160,7 @@ footer{
         border-radius: 3ex 3ex 0 0;
     }
     .act_1{
-        width: 25%;
+        width: 90%;
         height: 100%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
@@ -1211,7 +1171,7 @@ footer{
         color: black;
     }
     .act_4{
-        width: 25%;
+        width: 90%;
         height: 100%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
@@ -1222,7 +1182,8 @@ footer{
         color: black;
     }
     .act_2{
-        height: 53%;
+        width: 90%;
+        height: 90%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
         text-decoration: none;
@@ -1232,7 +1193,8 @@ footer{
         margin-bottom: 10px;
     }
     .act_3{
-        height: 37%;
+        width: 90%;
+        height: 100%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
         text-decoration: none;
@@ -1242,7 +1204,8 @@ footer{
         margin-bottom: 10px;
     }
     .act_5{
-        height: 44%;
+        height: 100%;
+        width: 90%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
         margin: auto;
@@ -1252,7 +1215,8 @@ footer{
         color: black;
     }
     .act_6{
-        height: 48%;
+        height: 100%;
+        width: 90%;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
         border-radius: 3ex;
         margin: auto;
@@ -1261,14 +1225,7 @@ footer{
         text-decoration: none;
         color: black;
     }
-    .small_card_1{
-        width: 100%;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-        height: auto;
-        margin: 0;
-    }
-    .small_card_2{
+    .small_card{
         width: 100%;
         -ms-flex-pack: distribute;
             justify-content: space-around;
@@ -1408,10 +1365,7 @@ footer{
             width: 100%;
             margin-left: 0;
         }
-        .search_section h1.desktop{
-            display: none;
-        }
-        .search_section h1.phone{
+        .search_section h1{
             display: inline;
             font-size: 150%;
             font-weight: 900;
@@ -1496,7 +1450,7 @@ footer{
                 -ms-flex-align: start;
                     align-items: flex-start;
         }
-        .filters h1{
+        .filters h2{
             margin: 30px 40px;
         }
         .filters_icons{
@@ -1581,7 +1535,7 @@ footer{
             border-radius: 4ex 4ex 0 0;
             padding: 5px;
         }
-        .search_result h1 {
+        .search_result h2 {
             font-size: large;
             font-weight: 900;
             margin: 40px;
@@ -1591,20 +1545,14 @@ footer{
             height: -moz-fit-content;
             height: fit-content;
         }
-        .row_1{
+        .row{
             -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
                 -ms-flex-direction: row;
                     flex-direction: row;
             margin: 6px 10px 0 10px;
         }
-        .row_2{
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row;
-            margin: 6px 10px 0 10px;
-        }
+
         .acc{
             width: 335px;
             height: 200px;
@@ -1675,7 +1623,7 @@ footer{
             height: fit-content;
         }
 
-        #activities h1{
+        #activities h2{
             font-size: large;
             font-weight: 900;
             margin-left: 40px;
@@ -1685,7 +1633,7 @@ footer{
             height: -moz-fit-content;
             height: fit-content;
         }
-        .cards_3 h2{
+        .cards_3 h3{
             padding: 13px;
         }
         .cards_3{
@@ -1754,22 +1702,7 @@ footer{
             text-decoration: none;
             color: black;
         }
-        .small_card_1{
-            width: 25%;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                    justify-content: space-between;
-            height: 100%;
-            margin: 0;
-        }
-        .small_card_2{
+        .small_card{
             width: 25%;
             display: -webkit-box;
             display: -ms-flexbox;
