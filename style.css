@@ -384,14 +384,48 @@ input{
     box-shadow: 2px 2px 5px 3px rgba(128, 127, 127, 0.671);
 }
 
-.search_result img {
+.search_result .acc_img {
     width: 95%;
     height: 105px;
     -o-object-fit: cover;
        object-fit: cover;
-    border-radius: 4ex 4ex 0 0;
-    padding: 5px;
+    border-radius: 3ex 3ex 0 0;
 }
+.lacannebiere{
+    background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+}
+.port{
+    background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+}
+.mouettes{
+    background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.mer{
+    background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.panier{
+    background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+}
+.amina{
+    background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .search_result h2 {
     font-size: large;
     font-weight: 900;
@@ -500,13 +534,30 @@ input{
 .rating_pop{
     color: #0065FC;
 }
-.popular img {
+.popular .pop_img {
     width: 37%;
     height: 119px;
     -o-object-fit: cover;
        object-fit: cover;
-    padding: 5px;
-    border-radius:4ex 0 0 4ex;
+    border-radius:3ex 0 0 3ex;
+}
+.soleil{
+    background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.eau{
+    background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.bleu{
+    background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
 }
 .popular h2{
     font-size: large;
@@ -608,7 +659,7 @@ input{
 
                 /*images*/
 
-.act_1 img{
+.vieuxport{
     width: 100%;
     height: 345px;
     -o-object-fit: cover;
@@ -616,8 +667,10 @@ input{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
+    background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
 }
-.act_4 img{
+.calanques{
     width: 100%;
     height: 345px;
     -o-object-fit: cover;
@@ -625,8 +678,10 @@ input{
     padding:0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
+    background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
 }
-.act_2 img{
+.pomegue{
     width: 100%;
     height: 160px;
     -o-object-fit: cover;
@@ -634,8 +689,11 @@ input{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
+    background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
 }
-.act_3 img{
+.frioul{
     width: 100%;
     height: 97px;
     -o-object-fit: cover;
@@ -643,8 +701,11 @@ input{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
+    background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
 }
-.act_5 img{
+.ndgarde{
     width: 100%;
     height: 123px;
     -o-object-fit: cover;
@@ -652,8 +713,10 @@ input{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
+    background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
 }
-.act_6 img{
+.longchamp{
     width: 100%;
     height: 136px;
     -o-object-fit: cover;
@@ -661,6 +724,9 @@ input{
     padding:    0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
+    background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+
 }
 /*titres*/
 
@@ -1008,6 +1074,7 @@ footer{
         border-radius: 4ex 4ex 0 0;
         padding: 5px;
     }
+
     .cards_1{
         height: -webkit-fit-content;
         height: -moz-fit-content;
