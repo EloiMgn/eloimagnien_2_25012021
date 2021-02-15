@@ -9,49 +9,32 @@ header{
     height: 80px;
     margin: 0 68px 45px 50px;
 }
-.header_1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
+nav{
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: 80px;
+    justify-content: space-between;
 }
-.header_2{
-    display: none;
+.menu{
+    border-top: solid 3px #0065FC;
+    padding-top: 35px;
+    height: fit-content;
+}
+.menu:nth-child(2){
+    order:4
 }
 .logo{
    width: 66%; 
-   padding-top: 39px;
+   padding-top: 35px;
 }
-.header_1 nav{
-    width: 33%;
-    margin-bottom: 0;
-    padding-top: 39px ;
-}
-.header_1 nav ul{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-}
-.header_1 nav a{
+.menu a{
     text-decoration: none;
     color: #0065FC;
     font-weight: 700;
-    border-top: solid 3px #0065FC;
-    padding-top: 35px;
 }
-.header_1 nav a:hover{
-    color: black;
+.menu:hover{
     border-top: none;
+}
+.menu a:hover{
+    color: black;
 }
 
 main {
