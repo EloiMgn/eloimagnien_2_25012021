@@ -205,7 +205,10 @@ body{
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
+<<<<<<< HEAD
     max-width: 100%;
+=======
+>>>>>>> test
     }
     .filter:hover{
     background-color: #DEEBFF;
@@ -230,8 +233,13 @@ body{
     background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 2em;  
+<<<<<<< HEAD
     margin: -2px;   
     min-width: 44px;           
+=======
+    margin: -2px;  
+    min-width: 44px;            
+>>>>>>> test
     }
     /*infos*/
     .infos {
