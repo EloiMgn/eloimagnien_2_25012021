@@ -3,26 +3,28 @@
 <head>
   <meta charset="utf-8">
   <title>Reservia</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel = "stylesheet" href ="fontawesome-free-5.15.2-web/css/all.css">
+  <link rel = "stylesheet" href ="Outils/fontawesome-free-5.15.2-web/css/all.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="CSS/images/logo/ms-icon-150x150.png" />
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/style.css">
 
 
-  <meta name="description" content="Page description. No longer than 155 characters." />
+
+  <meta name="description" content="Reservia est un site de réservation d'hôtels et chambres d'hôtes en ligne." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes maximum-scale=5" >
 
 
   <!-- Twitter Card data -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="Trouvez l'hébergement de vos rêves en un clic où que vous soyez !">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Title Here" />
+  <meta property="og:title" content="Reservia" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.example.com/" />
-  <meta property="og:image" content="http://example.com/image.jpg" />
-  <meta property="og:description" content="Description Here" />
+  <meta property="og:url" content="http://www.reservia.com/" />
+  <meta property="og:image" content="http://reservia.com/image.jpg" />
+  <meta property="og:description" content="Trouvez l'hébergement de vos rêves en un clic où que vous soyez !" />
 
 </head>
 <body>
@@ -32,7 +34,7 @@
       <!--menu de navigation-->
       <nav> 
         <div class="logo">
-          <a href="#" class="welcome_page"><img src="images\logo\Reservia.svg" alt="logo"></a>
+          <a href="#" class="welcome_page"><img src="CSS/images/logo/Reservia.svg" alt="logo"></a>
         </div>
         <div class="menu">
           <a href="#" class="nav">S'inscrire</a>
@@ -50,7 +52,7 @@
   <!-- contenu principal--> 
   <main>
     <!-- recherche-->
-    <aside class="search_section"> 
+    <section class="search_section"> 
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
       <div class="search_bar">
@@ -59,14 +61,16 @@
         </div>
         <div class="search_field">
           <form class="form">
-            <input id="city" type="text"  class="search" placeholder="Marseille, France" />
-            <button type="submit" class="button_1">Rechercher</button>
-            <button type="submit" class="button_2"><i class="fas fa-search"></i></button>
+            <input id="city" name="search_bar" type="text"  class="search" placeholder="Marseille, France" />
+            <button type="submit" class="button">
+              <span class="search_desktop">Rechercher</span> 
+              <span class="search_mobile"><i class="fas fa-search"></i></span>
+            </button>
           </form>
         </div>
       </div>
 
-    </aside>
+    </section>
     
 
     <!-- filtres -->
@@ -103,12 +107,12 @@
 
     <!-- infos -->
 
-    <aside class="infos"> 
+    <section class="infos"> 
       <div class="icon_infos">
         <i class="fas fa-info"></i>
       </div>
       <p>Plus de 500 hébergements sont disponibles dans cette ville</p>
-    </aside>
+    </section>
 
     <!-- hébergements -->
 
@@ -227,7 +231,7 @@
           <a href="#">Afficher plus</a>
         </div>
       </div>
-      <div class="popular">
+      <aside class="popular">
         <div class="header">
           <h2>Les plus populaires</h2>
           <i class="fas fa-chart-line"></i>
@@ -238,7 +242,7 @@
               <div class="pop_img soleil"></div>
             <div class="popular_description">
               <div class="pop_text">
-                <h3>Hôtel Le Soleil du <br>matin</h3>
+                <h3>Hôtel Le Soleil du matin</h3>
                 <p>Nuit à partir de <strong>128€</strong></p>
               </div>
                 <div class="rating_pop">
@@ -255,7 +259,7 @@
               <div class="pop_img eau"></div>
             <div class="popular_description">
               <div class="pop_text">
-                <h3>Au coeur de l'eau <br>Chambres d'hôtes</h3>
+                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                 <p>Nuit à partir de <strong>71€</strong></p>
               </div>
                 <div class="rating_pop">
@@ -272,7 +276,7 @@
             <div class="pop_img bleu"></div>
             <div class="popular_description">
               <div class="pop_text">
-                <h3>Hôtel Tout bleu et<br>blanc</h3>
+                <h3>Hôtel Tout bleu et blanc</h3>
                 <p>Nuit à partir de <strong>71€</strong></p>
               </div>
                 <div class="rating_pop">
@@ -287,7 +291,7 @@
     
         </div>
 
-      </div>
+      </aside>
 
     </section>
 
