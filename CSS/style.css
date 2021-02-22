@@ -415,34 +415,36 @@ body{
     border-radius: 3ex 3ex 0 0;
     }
     .lacannebiere{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     }
+
     .port{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    margin: 5px;
-    background-size: cover;
-    }
-    .mouettes{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
+    .mouettes{
+    background-image: url("../images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    margin: 5px;
+    background-size: cover;
+    background-position: bottom;
+    }
     .mer{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .panier{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     }
     .amina{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
@@ -567,19 +569,19 @@ body{
     border-radius:3ex 0 0 3ex;
     }
     .soleil{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .eau{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .bleu{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
@@ -699,7 +701,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-image: url("../images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     }
     .calanques{
@@ -710,7 +712,7 @@ body{
     padding:0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-image: url("../images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     }
     .pomegue{
@@ -721,7 +723,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-image: url("../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -733,7 +735,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-image: url("../images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -745,7 +747,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-image: url("../images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     }
     .longchamp{
@@ -756,7 +758,7 @@ body{
     padding:    0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-image: url("../images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     
     }
@@ -1119,34 +1121,34 @@ body{
     border-radius: 3ex 3ex 0 0;
     }
     .lacannebiere{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     padding: 3px;
     background-size: cover;
     }
     .port{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     padding: 3px;
     background-size: cover;
     }
     .mouettes{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     padding: 3px;
     background-size: cover;
     background-position: center;
     }
     .mer{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     padding: 3px;
     background-size: cover;
     background-position: center;
     }
     .panier{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     padding: 3px;
     background-size: cover;
     }
     .amina{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     padding: 3px;
     background-size: cover;
     background-position: center;
@@ -1171,19 +1173,19 @@ body{
     align-items: center;
     }
     .soleil{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .eau{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .bleu{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
@@ -1277,7 +1279,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-image: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1289,7 +1291,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1301,7 +1303,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1313,7 +1315,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-image: url("../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1325,7 +1327,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1338,7 +1340,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1735,34 +1737,34 @@ body{
     padding: 0;
     }
     .lacannebiere{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     margin: 5px;
     }
     .port{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
     margin: 5px;
     }
     .mouettes{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
     background-position: center;
     margin: 5px;
     }
     .mer{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     margin: 5px;
     }
     .panier{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     margin: 5px;
     }
     .amina{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -1836,19 +1838,19 @@ body{
     height: auto;
     }
     .soleil{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .eau{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
     }
     .bleu{
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("../images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     margin: 5px;
     background-size: cover;
     background-position: center;
@@ -1986,7 +1988,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-image: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -1998,7 +2000,7 @@ body{
     padding:0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -2010,7 +2012,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-image: url("../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -2022,7 +2024,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-image: url("../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -2034,7 +2036,7 @@ body{
     padding: 0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-image: url("../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
@@ -2046,7 +2048,7 @@ body{
     padding:    0;
     margin: 0;
     border-radius: 3ex 3ex 0 0;
-    background-image: url("D:/Documents/OpenClassroom/P2_magnien_eloi/Reservia/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-image: url("../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     }
