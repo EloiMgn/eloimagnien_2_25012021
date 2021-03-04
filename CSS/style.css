@@ -929,7 +929,7 @@ body{
     }
     .nav_act, .nav_acc{
     color: black;
-    width: 50%;
+    width: 100%;
     height: 30px;
     display: flex;
     flex-direction: column;
@@ -960,7 +960,8 @@ body{
     padding-left: 20px;
     }
     .nav{
-    padding-left: 96px;
+    padding-left: 94px;
+    padding-right: 20px;
     font-weight: 700!important;
     }
     main{
